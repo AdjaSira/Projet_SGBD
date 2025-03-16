@@ -1,27 +1,58 @@
-# SgbdFrontend
+# 📌 Projet Angular - Système de Soumission de Devoirs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+Bienvenue dans ce projet Angular ! 🚀 Ce projet permet aux étudiants de soumettre leurs devoirs et aux enseignants de les corriger.
 
-## Development server
+## 📌 Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ce projet est un **frontend Angular** qui se connecte à un backend **Django** pour gérer :
 
-## Code scaffolding
+- 📌 L'authentification des utilisateurs (Étudiants et Enseignants)
+- 📌 Le tableau de bord avec statistiques
+- 📌 La soumission de devoirs par les étudiants
+- 📌 La correction et la notation par les enseignants
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📌 Prérequis
 
-## Build
+Avant de commencer, assure-toi d'avoir :
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Node.js** installé : [Télécharger Node.js](https://nodejs.org/)
+- **Angular CLI** installé :
+  ```sh
+  npm install -g @angular/cli
+  ```
+- **Git** installé : [Télécharger Git](https://git-scm.com/downloads)
 
-## Running unit tests
+## 📌 Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Cloner le dépôt** :
 
-## Running end-to-end tests
+   ```sh
+   git clone https://github.com/ton-utilisateur/mon-projet-angular.git
+   cd mon-projet-angular
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Installer les dépendances** :
 
-## Further help
+   ```sh
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Lancer le projet** :
+   ```sh
+   ng serve --open
+   ```
+   L'application sera accessible à **http://localhost:4200/**
+
+## 📌 Structure du Projet
+
+📂 `src/` - Dossier principal contenant le code source  
+📂 `src/app/` - Contient les composants et services Angular  
+📂 `src/assets/` - Contient les fichiers statiques (images, styles)  
+📂 `src/environments/` - Contient les fichiers de configuration
+
+## 📌 Fonctionnalités
+
+- 📌 **Authentification** : Connexion et inscription des utilisateurs
+- 📌 **Soumission de devoirs** : Upload de fichiers par les étudiants
+- 📌 **Correction et notation** : Interface enseignant pour corriger les devoirs
+- 📌 **Tableau de bord** : Vue avec statistiques sur les devoirs soumis
